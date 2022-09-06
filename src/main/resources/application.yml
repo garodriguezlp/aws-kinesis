@@ -1,0 +1,16 @@
+# AWS
+aws:
+  access:
+    key: AKIARWVEZHPE4QBDPZR4
+  secret:
+    key: 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
+
+# Application
+kinesis:
+  stream:
+    name: my-stream
+    shard-id: shardId-000000000000
+
+spring:
+  profiles:
+    active: aws-sdk
