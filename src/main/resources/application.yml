@@ -1,9 +1,7 @@
 # AWS
 aws:
-  access:
-    key: AKIARWVEZHPE4QBDPZR4
-  secret:
-    key: 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
+  access-key-id: ${AWS_KINESIS_ACCESS_KEY_ID}
+  secret-key: ${AWS_KINESIS_SECRET_ACCESS_KEY}
 
 # Application
 kinesis:
